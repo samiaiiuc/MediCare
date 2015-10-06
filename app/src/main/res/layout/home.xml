@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- top pane -->
+    <View android:id="@+id/top_pane"
+        android:layout_width="match_parent"
+        android:background="#00B88A"
+        android:layout_marginBottom="8dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- left pane -->
+        <View
+            android:id="@+id/left_pane"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFA347"
+            android:layout_marginLeft="8dp"
+            android:textAlignment="center"
+            android:layout_weight="1" />
+
+
+
+        <!-- center pane -->
+        <View
+            android:id="@+id/center_pane"
+            android:layout_width="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFF66"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <!-- right pane -->
+        <View
+            android:id="@+id/right_pane"
+            android:layout_width="0dp"
+            android:background="#99CCFF"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/left1_pane"
+            android:layout_width="0dp"
+            android:background="#FFCC99"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <!-- center pane -->
+        <View
+            android:id="@+id/center1_pane"
+            android:layout_width="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#00E6B8"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <!-- right pane -->
+        <View
+            android:id="@+id/right1_pane"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#99FF66"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- left pane -->
+        <View
+            android:id="@+id/left_pane2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:background="#FF9BCD"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1" />
+        <!-- center pane -->
+        <View
+            android:id="@+id/center_pane2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:background="#FF5F5F"
+
+            android:layout_weight="1" />
+
+        <!-- right pane -->
+        <View
+            android:id="@+id/right_pane2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#CCFFCC"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    bottom pane
+    <View android:id="@+id/bottom_pane"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="#00B88A"
+        android:layout_height="50dp" />
+
+</LinearLayout>

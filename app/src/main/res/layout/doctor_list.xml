@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/AddNewDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E5CAB"
+        android:textSize="20dp"
+        android:text="Add new Doctor"
+        />
+    <ListView
+        android:id="@+id/LV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        </ListView>
+    <TextView
+        android:id="@+id/displayDocListNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>

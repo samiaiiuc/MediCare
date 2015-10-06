@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".DoctorProfileCreate"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:padding="17dp"
+        android:id="@+id/scrollViewDoctoProfile" >
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:id="@+id/doctorprofile"
+                    android:layout_width="50dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="14dp"
+                    android:src="@drawable/p_doctor" />
+                <TextView
+                    android:id="@+id/dview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/Create_doctor"
+                    android:textColor="#051C2D"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:id="@+id/FimageViewName1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/name" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Doctor's Name"
+                    android:id="@+id/editTextDoctorName" />
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/qualification"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/quali" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qualification"
+        android:id="@+id/editTextQualification" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/designation"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/dsn" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Designation"
+        android:id="@+id/editTextDesignation" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/expertise"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/expertise" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expertise"
+            android:id="@+id/editTextExpertise" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/organisation"
+        android:layout_width="26dp"
+        android:layout_height="34dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/org" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Organization"
+        android:id="@+id/editTextOrganization" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/chamber"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/chamber" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Chamber"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextChamber" />
+</LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="fill_parent">
+               <ImageView
+                   android:id="@+id/visitinghour"
+                   android:layout_width="30dp"
+                   android:layout_height="34dp"
+                   android:layout_marginRight="8dp"
+                   android:src="@drawable/vhour" />
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Visiting Hours"
+                   android:inputType="text"
+                   android:id="@+id/editTextVisitingHours" />
+           </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/location" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:id="@+id/editTextLocation" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/number" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPhone" />
+</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:id="@+id/email"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/email" />
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextEmail" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btndoctorsave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#7FAACA"
+                android:gravity="center"
+                android:drawableLeft="@drawable/save"
+                android:onClick="createProfile"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
